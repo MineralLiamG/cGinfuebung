@@ -2,7 +2,10 @@ import pgzrun
 import random
 
 spaceship = Actor('playership1_red')
+spaceship.x = random.randint(0,600)
 gem = Actor('gemblue')
+
+
 
 def draw():
     screen.clear()
